@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Neonderthaw&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive; */
+* {
+  
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header {
+  width: 100%;
+  background-color: #fff;
+  padding: 30px 60px;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  color: rgb(4, 199, 4);
+  font-family: 'Righteous', cursive;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+}
+.logo::first-letter{
+  color:rgb(5, 90, 54);
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.navg a{
+  text-decoration: none;
+  font-family: 'Righteous', cursive;
+  font-size: 1.0em;
+  font-weight: 200;
+  color: rgb(4, 199, 4);
+  padding-left: 10px;
+  
+}
+.navg a:hover{
+  color: rgb(1, 66, 1);
+  text-decoration: underline rgb(1, 66, 1);
+}
+section{
+  padding: 100px 200px ;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background: url(../img/image1.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.main::after{
+  content: "Welcome in fawzi son's herbs";
+  width: 50%;
+  padding: 20px 20px ;
+  background-color: rgba(108, 156, 154, 0.432);
+  position: absolute;
+  bottom: 20px;
+  left: 220px;
+  text-align: center;
+  color: black;
+  font-size: medium;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  background-attachment: fixed;
+  
+
+} 
+.quality .title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color:saddlebrown ;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+
+
+  
+}
+.quality{
+  background-color: seashell;
+  width: 100%;
+  min-height: 100vh;
+
+}
+.card1 {
+  width: 11.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px 20px 0 0;
+  box-shadow: 0 0 4px 0px dimgrey;
+}
+.card1 img {
+    width: 54px;
+    margin-right: 19px;
+    margin-left: 5px;
+    height: 90px;
+}
+.card1 .text-card {
+  font-family: 'Poppins', sans-serif;
+ text-transform: capitalize;
+}
+.full {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center     ;
+}
+.text {
+  font-family: 'Righteous', cursive;
+}
+.text span {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+  color: green;
+}
+.product{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(244, 247, 246);
+}
+.product .title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color:saddlebrown ;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+.text-pro{
+  width: 120%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* box-shadow: 0 0 4px 0px dimgrey; */
+
+}
+.text-product {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  gap: 50px ;
+  
+}
+.text-product img:hover{
+  transform: scale(1.3) ;
+  filter: blur(.5);
+  transition: .7s ease-in-out;
+}
+.text-product img{
+  margin-bottom: 20px;
+  border-radius: 20%;
+}
+.text-product p:hover{
+  color: sienna;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: .4s ease-in-out;
+}
+.contact .title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color:saddlebrown ;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+.contact {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(244, 247, 246);
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 30px;
+  
+  
+}
+.card3 {
+  width:80%;
+  height: 500px;
+  background-color: rgb(220, 227, 235);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: repeat(6, auto);
+  gap: 10px;
+ align-content:flex-start;
+ background: url(../img/114.jpg) no-repeat;
+ background-size: cover;
+
+}
+.card3 input {
+  height: fit-content;
+  width: 85%;
+  padding: 10px;
+  margin-top: 10px;
+  /* border-radius: 5px 5px 5px 5px; */
+}
+.card3 input:checked{
+  box-shadow: 0 4px 4px 0 rgb(4, 145, 15) outset;
+}
+
+ .card3 label {
+   margin-top: 20px;
+   margin-right: 40px;
+   font-family: 'Patrick Hand', cursive;
+   color: #fff;
+   font-weight: 500;
+   margin-left: 8px;
+   background-color: rgb(84 44 24 / 29%);
+ }
+.card3 .in {
+  height: 130px;
+
+}
+.card3 .send{
+  width: 60%;
+  border-radius: 22px 21px 22px 24px;
+  background-color: rgb(42 26 12);
+}
+.card3 .lab {
+  height: 20%;
+}
+.contact-belw {
+  width: 100%;
+  height: 200px;
+  background-color: forestgreen;
+  display: flex;
+  flex-direction: row;
+ 
+  justify-content: space-between;
+
+}
+footer{
+  width: 100%;
+  height: auto;
+  background-color: rgb(4, 48, 4);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+ footer p{
+  color: whitesmoke;
+  font-size: 15px;
+
+}
+footer a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 15px;
+
+}
+footer a:hover{
+  text-decoration: underline white;
+}
+.whats {
+background-color: seagreen;
+color: white;
+position: absolute;
+bottom: 0;
+left: 0;
+position: fixed;
+z-index: 999;
+padding: 10px ;
+margin: 20px;
+}
+.whats a {
+  text-decoration: none;
+  color: #fff;
+  
+}
